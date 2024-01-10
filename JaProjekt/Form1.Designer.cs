@@ -53,6 +53,7 @@
             radioButton3 = new RadioButton();
             radioButton2 = new RadioButton();
             radioButton1 = new RadioButton();
+            checkBox1 = new CheckBox();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             groupBox1.SuspendLayout();
             SuspendLayout();
@@ -302,11 +303,22 @@
             radioButton1.Text = "1";
             radioButton1.UseVisualStyleBackColor = true;
             // 
+            // checkBox1
+            // 
+            checkBox1.AutoSize = true;
+            checkBox1.Location = new Point(24, 505);
+            checkBox1.Name = "checkBox1";
+            checkBox1.Size = new Size(83, 19);
+            checkBox1.TabIndex = 17;
+            checkBox1.Text = "Save to file";
+            checkBox1.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(933, 783);
+            Controls.Add(checkBox1);
             Controls.Add(groupBox1);
             Controls.Add(label9);
             Controls.Add(label8);
@@ -363,5 +375,6 @@
         private RadioButton radioButton2;
         private RadioButton radioButton1;
         private Label label10;
+        private CheckBox checkBox1;
     }
 }

@@ -1,4 +1,5 @@
 using System.Diagnostics;
+using System.Drawing.Imaging;
 using System.Globalization;
 
 
@@ -86,10 +87,42 @@ namespace JaProjekt
             stopwatch.Start();
 
             JuliaFractal.Class1.DrawJuliaFractal(this.CreateGraphics(), re, im, threads, pictureBox1);
+           // AssemblyDLL.JuliaFractal(this.CreateGraphics(), re, im, threads, pictureBox1);
             stopwatch.Stop();
+
+            bool isCheckBoxChecked = checkBox1.Checked;
+            if (isCheckBoxChecked)
+            {
+                SavePictureBoxToPng();
+            }
 
             MessageBox.Show($"Time elapsed: {stopwatch.ElapsedMilliseconds} ms");
         }
+
+
+        private void SavePictureBoxToPng()
+        {
+            Bitmap bitmap = new Bitmap(pictureBox1.Image);
+            SaveFileDialog saveFileDialog = new SaveFileDialog();
+            saveFileDialog.Filter = "Pliki PNG|*.png";
+            saveFileDialog.Title = "Zapisz obraz do pliku PNG";
+            saveFileDialog.ShowDialog();
+
+            if (saveFileDialog.FileName != "")
+            {
+                try
+                {
+                    bitmap.Save(saveFileDialog.FileName, ImageFormat.Png);
+                    MessageBox.Show("Obraz zosta³ pomyœlnie zapisany.", "Sukces", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Wyst¹pi³ b³¹d podczas zapisywania obrazu: " + ex.Message, "B³¹d", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+
+        }
+
     }
 
 }

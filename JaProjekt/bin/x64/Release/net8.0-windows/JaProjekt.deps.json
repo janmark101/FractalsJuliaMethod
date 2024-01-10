@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "JaProjekt/1.0.0": {
+        "dependencies": {
+          "JuliaFractal": "1.0.0"
+        },
+        "runtime": {
+          "JaProjekt.dll": {}
+        }
+      },
+      "JuliaFractal/1.0.0": {
+        "runtime": {
+          "JuliaFractal.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "JaProjekt/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "JuliaFractal/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

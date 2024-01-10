@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Threading.Tasks;
-using System.Drawing; 
+using System.Drawing;
+using System.Diagnostics;
+using System.Windows.Forms;
 
 namespace JuliaFractal
 {
@@ -16,6 +18,7 @@ namespace JuliaFractal
         {
 
             Bitmap bitmap = new Bitmap(picturebox.Width, picturebox.Height);
+
             Parallel.For(0, picturebox.Width, new ParallelOptions { MaxDegreeOfParallelism = numThreads }, x =>
             {
                 for (int y = 0; y < picturebox.Height; y++)
@@ -58,7 +61,7 @@ namespace JuliaFractal
                 }
             });
 
-            
+
             picturebox.Image = bitmap;
         }
 
