@@ -1,17 +1,22 @@
+using System.Runtime.InteropServices;
+
 namespace JaProjekt
 {
     internal static class Program
     {
-        /// <summary>
-        ///  The main entry point for the application.
-        /// </summary>
+
         [STAThread]
         static void Main()
         {
-            // To customize application configuration such as set high DPI settings or default font,
-            // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
             Application.Run(new Form1());
         }
+    }
+
+    public static class AssemblyDLL
+    {
+        [DllImport(@"C:\Users\janma\source\repos\JaProjekt\x64\Debug\JAAsm.dll")]
+
+        public static extern void MyProc1(int a, int b);
     }
 }

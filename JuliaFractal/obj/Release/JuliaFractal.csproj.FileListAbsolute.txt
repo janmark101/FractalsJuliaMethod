@@ -1,0 +1,6 @@
+C:\Users\janma\source\repos\JaProjekt\JuliaFractal\bin\Release\JuliaFractal.dll
+C:\Users\janma\source\repos\JaProjekt\JuliaFractal\bin\Release\JuliaFractal.pdb
+C:\Users\janma\source\repos\JaProjekt\JuliaFractal\obj\Release\JuliaFractal.csproj.AssemblyReference.cache
+C:\Users\janma\source\repos\JaProjekt\JuliaFractal\obj\Release\JuliaFractal.csproj.CoreCompileInputs.cache
+C:\Users\janma\source\repos\JaProjekt\JuliaFractal\obj\Release\JuliaFractal.dll
+C:\Users\janma\source\repos\JaProjekt\JuliaFractal\obj\Release\JuliaFractal.pdb

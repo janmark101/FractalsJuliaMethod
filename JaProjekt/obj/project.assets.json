@@ -1,11 +1,29 @@
 {
   "version": 3,
   "targets": {
-    "net8.0-windows7.0": {}
+    "net8.0-windows7.0": {
+      "JuliaFractal/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/JuliaFractal.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/JuliaFractal.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "JuliaFractal/1.0.0": {
+      "type": "project",
+      "path": "../JuliaFractal/JuliaFractal.csproj",
+      "msbuildProject": "../JuliaFractal/JuliaFractal.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net8.0-windows7.0": []
+    "net8.0-windows7.0": [
+      "JuliaFractal >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\janma\\.nuget\\packages\\": {},
@@ -38,7 +56,11 @@
       "frameworks": {
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\janma\\source\\repos\\JaProjekt\\JuliaFractal\\JuliaFractal.csproj": {
+              "projectPath": "C:\\Users\\janma\\source\\repos\\JaProjekt\\JuliaFractal\\JuliaFractal.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

@@ -14,3 +14,8 @@ C:\Users\janma\source\repos\JaProjekt\JaProjekt\obj\x64\Debug\net8.0-windows\ref
 C:\Users\janma\source\repos\JaProjekt\JaProjekt\obj\x64\Debug\net8.0-windows\JaProjekt.pdb
 C:\Users\janma\source\repos\JaProjekt\JaProjekt\obj\x64\Debug\net8.0-windows\JaProjekt.genruntimeconfig.cache
 C:\Users\janma\source\repos\JaProjekt\JaProjekt\obj\x64\Debug\net8.0-windows\ref\JaProjekt.dll
+C:\Users\janma\source\repos\JaProjekt\JaProjekt\obj\x64\Debug\net8.0-windows\JaProjekt.sourcelink.json
+C:\Users\janma\source\repos\JaProjekt\JaProjekt\obj\x64\Debug\net8.0-windows\JaProjekt.csproj.AssemblyReference.cache
+C:\Users\janma\source\repos\JaProjekt\JaProjekt\bin\x64\Debug\net8.0-windows\JuliaFractal.dll
+C:\Users\janma\source\repos\JaProjekt\JaProjekt\bin\x64\Debug\net8.0-windows\JuliaFractal.pdb
+C:\Users\janma\source\repos\JaProjekt\JaProjekt\obj\x64\Debug\net8.0-windows\JaProjekt.csproj.CopyComplete

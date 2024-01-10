@@ -31,7 +31,11 @@
         "frameworks": {
           "net8.0-windows7.0": {
             "targetAlias": "net8.0-windows",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\janma\\source\\repos\\JaProjekt\\JuliaFractal\\JuliaFractal.csproj": {
+                "projectPath": "C:\\Users\\janma\\source\\repos\\JaProjekt\\JuliaFractal\\JuliaFractal.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -64,6 +68,21 @@
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
         }
+      }
+    },
+    "C:\\Users\\janma\\source\\repos\\JaProjekt\\JuliaFractal\\JuliaFractal.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\janma\\source\\repos\\JaProjekt\\JuliaFractal\\JuliaFractal.csproj",
+        "projectName": "JuliaFractal",
+        "projectPath": "C:\\Users\\janma\\source\\repos\\JaProjekt\\JuliaFractal\\JuliaFractal.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
       }
     }
   }
