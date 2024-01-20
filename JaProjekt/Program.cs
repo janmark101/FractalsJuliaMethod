@@ -13,10 +13,4 @@ namespace JaProjekt
         }
     }
 
-    public static class AssemblyDLL
-    {
-        [DllImport(@"C:\Users\janma\source\repos\JaProjekt\x64\Release\JAAsm.dll")]
-
-        public static extern int MyProc1(int a,int b);
-    }
 }

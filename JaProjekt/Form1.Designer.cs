@@ -44,18 +44,17 @@
             label7 = new Label();
             label8 = new Label();
             label9 = new Label();
-            groupBox1 = new GroupBox();
-            label10 = new Label();
-            radioButton7 = new RadioButton();
-            radioButton6 = new RadioButton();
-            radioButton5 = new RadioButton();
-            radioButton4 = new RadioButton();
-            radioButton3 = new RadioButton();
-            radioButton2 = new RadioButton();
-            radioButton1 = new RadioButton();
             checkBox1 = new CheckBox();
+            button5 = new Button();
+            checkBox2 = new CheckBox();
+            checkBox3 = new CheckBox();
+            checkBox4 = new CheckBox();
+            label11 = new Label();
+            label12 = new Label();
+            label13 = new Label();
+            label14 = new Label();
+            textBox3 = new TextBox();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
-            groupBox1.SuspendLayout();
             SuspendLayout();
             // 
             // button1
@@ -201,108 +200,6 @@
             label9.TabIndex = 15;
             label9.Text = "Threads : ";
             // 
-            // groupBox1
-            // 
-            groupBox1.Controls.Add(label10);
-            groupBox1.Controls.Add(radioButton7);
-            groupBox1.Controls.Add(radioButton6);
-            groupBox1.Controls.Add(radioButton5);
-            groupBox1.Controls.Add(radioButton4);
-            groupBox1.Controls.Add(radioButton3);
-            groupBox1.Controls.Add(radioButton2);
-            groupBox1.Controls.Add(radioButton1);
-            groupBox1.Location = new Point(49, 598);
-            groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(374, 50);
-            groupBox1.TabIndex = 16;
-            groupBox1.TabStop = false;
-            // 
-            // label10
-            // 
-            label10.AutoSize = true;
-            label10.Location = new Point(6, 34);
-            label10.Name = "label10";
-            label10.Size = new Size(44, 15);
-            label10.TabIndex = 7;
-            label10.Text = "default";
-            // 
-            // radioButton7
-            // 
-            radioButton7.AutoSize = true;
-            radioButton7.Location = new Point(325, 12);
-            radioButton7.Name = "radioButton7";
-            radioButton7.Size = new Size(37, 19);
-            radioButton7.TabIndex = 6;
-            radioButton7.TabStop = true;
-            radioButton7.Text = "64";
-            radioButton7.UseVisualStyleBackColor = true;
-            // 
-            // radioButton6
-            // 
-            radioButton6.AutoSize = true;
-            radioButton6.Location = new Point(270, 12);
-            radioButton6.Name = "radioButton6";
-            radioButton6.Size = new Size(37, 19);
-            radioButton6.TabIndex = 5;
-            radioButton6.TabStop = true;
-            radioButton6.Text = "32";
-            radioButton6.UseVisualStyleBackColor = true;
-            // 
-            // radioButton5
-            // 
-            radioButton5.AutoSize = true;
-            radioButton5.Location = new Point(215, 12);
-            radioButton5.Name = "radioButton5";
-            radioButton5.Size = new Size(37, 19);
-            radioButton5.TabIndex = 4;
-            radioButton5.TabStop = true;
-            radioButton5.Text = "16";
-            radioButton5.UseVisualStyleBackColor = true;
-            // 
-            // radioButton4
-            // 
-            radioButton4.AutoSize = true;
-            radioButton4.Location = new Point(165, 12);
-            radioButton4.Name = "radioButton4";
-            radioButton4.Size = new Size(31, 19);
-            radioButton4.TabIndex = 3;
-            radioButton4.TabStop = true;
-            radioButton4.Text = "8";
-            radioButton4.UseVisualStyleBackColor = true;
-            // 
-            // radioButton3
-            // 
-            radioButton3.AutoSize = true;
-            radioButton3.Location = new Point(117, 12);
-            radioButton3.Name = "radioButton3";
-            radioButton3.Size = new Size(31, 19);
-            radioButton3.TabIndex = 2;
-            radioButton3.TabStop = true;
-            radioButton3.Text = "4";
-            radioButton3.UseVisualStyleBackColor = true;
-            // 
-            // radioButton2
-            // 
-            radioButton2.AutoSize = true;
-            radioButton2.Location = new Point(70, 12);
-            radioButton2.Name = "radioButton2";
-            radioButton2.Size = new Size(31, 19);
-            radioButton2.TabIndex = 1;
-            radioButton2.TabStop = true;
-            radioButton2.Text = "2";
-            radioButton2.UseVisualStyleBackColor = true;
-            // 
-            // radioButton1
-            // 
-            radioButton1.AutoSize = true;
-            radioButton1.Location = new Point(18, 12);
-            radioButton1.Name = "radioButton1";
-            radioButton1.Size = new Size(31, 19);
-            radioButton1.TabIndex = 0;
-            radioButton1.TabStop = true;
-            radioButton1.Text = "1";
-            radioButton1.UseVisualStyleBackColor = true;
-            // 
             // checkBox1
             // 
             checkBox1.AutoSize = true;
@@ -313,13 +210,105 @@
             checkBox1.Text = "Save to file";
             checkBox1.UseVisualStyleBackColor = true;
             // 
+            // button5
+            // 
+            button5.Location = new Point(280, 739);
+            button5.Name = "button5";
+            button5.Size = new Size(112, 23);
+            button5.TabIndex = 21;
+            button5.Text = "Create with asm";
+            button5.UseVisualStyleBackColor = true;
+            button5.Click += button5_Click;
+            // 
+            // checkBox2
+            // 
+            checkBox2.AutoSize = true;
+            checkBox2.Location = new Point(507, 718);
+            checkBox2.Name = "checkBox2";
+            checkBox2.Size = new Size(81, 19);
+            checkBox2.TabIndex = 22;
+            checkBox2.Text = "Assembler";
+            checkBox2.UseVisualStyleBackColor = true;
+            checkBox2.CheckedChanged += checkBox2_CheckedChanged;
+            // 
+            // checkBox3
+            // 
+            checkBox3.AutoSize = true;
+            checkBox3.Location = new Point(627, 718);
+            checkBox3.Name = "checkBox3";
+            checkBox3.Size = new Size(81, 19);
+            checkBox3.TabIndex = 23;
+            checkBox3.Text = "Assembler";
+            checkBox3.UseVisualStyleBackColor = true;
+            // 
+            // checkBox4
+            // 
+            checkBox4.AutoSize = true;
+            checkBox4.Location = new Point(749, 718);
+            checkBox4.Name = "checkBox4";
+            checkBox4.Size = new Size(81, 19);
+            checkBox4.TabIndex = 24;
+            checkBox4.Text = "Assembler";
+            checkBox4.UseVisualStyleBackColor = true;
+            // 
+            // label11
+            // 
+            label11.AutoSize = true;
+            label11.Location = new Point(507, 509);
+            label11.Name = "label11";
+            label11.Size = new Size(105, 15);
+            label11.TabIndex = 25;
+            label11.Text = "Execution time c#:";
+            // 
+            // label12
+            // 
+            label12.AutoSize = true;
+            label12.Location = new Point(716, 509);
+            label12.Name = "label12";
+            label12.Size = new Size(114, 15);
+            label12.TabIndex = 26;
+            label12.Text = "Execution time asm:";
+            // 
+            // label13
+            // 
+            label13.AutoSize = true;
+            label13.Location = new Point(627, 509);
+            label13.Name = "label13";
+            label13.Size = new Size(13, 15);
+            label13.TabIndex = 27;
+            label13.Text = "0";
+            // 
+            // label14
+            // 
+            label14.AutoSize = true;
+            label14.Location = new Point(843, 509);
+            label14.Name = "label14";
+            label14.Size = new Size(13, 15);
+            label14.TabIndex = 28;
+            label14.Text = "0";
+            // 
+            // textBox3
+            // 
+            textBox3.Location = new Point(67, 598);
+            textBox3.Name = "textBox3";
+            textBox3.Size = new Size(100, 23);
+            textBox3.TabIndex = 29;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(933, 783);
+            Controls.Add(textBox3);
+            Controls.Add(label14);
+            Controls.Add(label13);
+            Controls.Add(label12);
+            Controls.Add(label11);
+            Controls.Add(checkBox4);
+            Controls.Add(checkBox3);
+            Controls.Add(checkBox2);
+            Controls.Add(button5);
             Controls.Add(checkBox1);
-            Controls.Add(groupBox1);
             Controls.Add(label9);
             Controls.Add(label8);
             Controls.Add(label7);
@@ -339,11 +328,10 @@
             Margin = new Padding(4, 3, 4, 3);
             Name = "Form1";
             Text = "Julia Fractals";
+            Load += Form1_Load;
             Paint += Form1_Paint;
             Resize += Form1_Resize;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
-            groupBox1.ResumeLayout(false);
-            groupBox1.PerformLayout();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -366,15 +354,15 @@
         private Label label7;
         private Label label8;
         private Label label9;
-        private GroupBox groupBox1;
-        private RadioButton radioButton7;
-        private RadioButton radioButton6;
-        private RadioButton radioButton5;
-        private RadioButton radioButton4;
-        private RadioButton radioButton3;
-        private RadioButton radioButton2;
-        private RadioButton radioButton1;
-        private Label label10;
         private CheckBox checkBox1;
+        private Button button5;
+        private CheckBox checkBox2;
+        private CheckBox checkBox3;
+        private CheckBox checkBox4;
+        private Label label11;
+        private Label label12;
+        private Label label13;
+        private Label label14;
+        private TextBox textBox3;
     }
 }
